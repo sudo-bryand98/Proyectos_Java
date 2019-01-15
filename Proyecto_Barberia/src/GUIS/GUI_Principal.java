@@ -35,6 +35,9 @@ public class GUI_Principal extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Barberia \"Evolution\" 1.0");
@@ -69,6 +72,15 @@ public class GUI_Principal extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel3.setText("Barberia \"Evolution\" 1.0");
         jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jButton1.setText("jButton1");
+        jPanel4.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, -1, -1));
+
+        jButton2.setText("jButton2");
+        jPanel4.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 120, -1, -1));
+
+        jButton3.setText("jButton3");
+        jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 120, -1, -1));
 
         jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 700, 240));
 
@@ -117,6 +129,9 @@ public class GUI_Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
